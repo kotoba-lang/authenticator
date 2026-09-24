@@ -5,7 +5,7 @@
   erroring: a window too narrow to tolerate a real phone's clock, a window
   wide enough to be a replay window, a correct code refused because a password
   manager pasted a space."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [auth.otp :as otp]
             [auth.verify :as verify]))
 

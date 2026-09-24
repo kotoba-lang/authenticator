@@ -1,5 +1,5 @@
 (ns auth.db-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [auth.db :as db]
             [auth.uri :as uri]
             #?(:clj [clojure.edn :as edn]
