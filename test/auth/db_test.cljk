@@ -2,7 +2,7 @@
   (:require [kotoba.test :refer [deftest is testing]]
             [auth.db :as db]
             [auth.uri :as uri]
-            #?(:clj [clojure.edn :as edn]
+            #?(:clj [kotoba.lang.edn :as edn]
                :cljs [cljs.reader :as edn])))
 
 (def gh  {:account/type :totp :account/name "octocat" :account/issuer "GitHub"

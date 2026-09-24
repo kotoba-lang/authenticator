@@ -11,7 +11,7 @@
   (master password → PBKDF2 → AES-GCM) is the intended next layer; `read-state`
   / `write-state!` are the seam for it."
   (:require [auth.db :as db]
-            #?(:clj [clojure.edn :as edn]
+            #?(:clj [kotoba.lang.edn :as edn]
                :cljs [cljs.reader :as edn])
             [kotoba.lang.text :as str]))
 
