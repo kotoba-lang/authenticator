@@ -1,5 +1,5 @@
 (ns auth.uri-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [auth.uri :as uri]))
 
 (deftest parse-full-totp

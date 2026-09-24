@@ -1,5 +1,5 @@
 (ns auth.otp-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [auth.otp :as otp]
             [auth.base32 :as base32]))
 

@@ -3,7 +3,7 @@
 
   The failure these tests exist for is not an exception — it is a person
   reading a code off paper, typing what they see, and being told it is wrong."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [auth.recovery :as recovery]))
 
 (deftest the-alphabet-excludes-what-people-mistype
